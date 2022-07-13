@@ -1,19 +1,19 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-import SearchIcon from '@mui/icons-material/Search';
+import SearchIcon from "@mui/icons-material/Search";
 
 function SearchBar() {
   return (
     <StyledSearchBar>
-      <div className='Search'>
-        <div class='icon'>
+      <div className="Search">
+        <div class="icon">
           <SearchIcon />
         </div>
         <input
-          className='Search__input '
-          type='text'
-          placeholder='Where would you like to go...'
+          className="Search__input "
+          type="text"
+          placeholder="Where would you like to go..."
         />
       </div>
     </StyledSearchBar>
@@ -27,6 +27,7 @@ const StyledSearchBar = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px 0;
   .Search {
     display: flex;
     width: 70%;
@@ -64,7 +65,7 @@ const StyledSearchBar = styled.div`
   select,
   textarea {
     color: #354259;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
   .icon {
     width: 24px;
